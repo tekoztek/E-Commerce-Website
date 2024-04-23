@@ -25,7 +25,7 @@ function SearchBox() {
                 value={keyword}
                 onChange={(e) => setKeyword(e.target.value)}
             />
-            <Button type="submit" variant="outline-success" className="mb-2">
+            <Button type="submit" variant="outline-success" className='px-2 ml-sm-1'>
                 Submit
             </Button>
         </Form>

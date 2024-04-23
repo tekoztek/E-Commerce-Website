@@ -18,7 +18,7 @@ function Header() {
 
     return (
         <header>
-            <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
+            <Navbar bg="light" variant="light" expand="lg" collapseOnSelect>
                 <Container>
                     <LinkContainer to='/'>
                         <Navbar.Brand>ProShop</Navbar.Brand>
@@ -30,7 +30,7 @@ function Header() {
                         <Nav className="ml-auto">
 
                             <LinkContainer to='/cart'>
-                                <Nav.Link ><i className="fas fa-shopping-cart"></i>Cart</Nav.Link>
+                                <Nav.Link ><i className="fas fa-shopping-cart px-1"></i>Cart</Nav.Link>
                             </LinkContainer>
 
                             {userInfo ? (
@@ -44,7 +44,7 @@ function Header() {
                                 </NavDropdown>
                             ) : (
                                     <LinkContainer to='/login'>
-                                        <Nav.Link><i className="fas fa-user"></i>Login</Nav.Link>
+                                        <Nav.Link><i className="fas fa-user px-1"></i>Login</Nav.Link>
                                     </LinkContainer>
                                 )}
 
